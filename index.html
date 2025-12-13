@@ -4,12 +4,12 @@
   <meta charset="UTF-8">
   <title>FG PLAY</title>
   <link rel="stylesheet" href="style.css">
-   <style>
-    /* O body só define cores e fonte */
-    body {
+  <style>
+    html, body {
+      min-height: 100vh;
+      margin: 0;
       background-color: #214cce;
       font-family: Arial, sans-serif;
-      margin: 0;
       color: white;
       text-align: center;
     }
@@ -20,39 +20,38 @@
       font-weight: bold;
     }
 
-    /*
-      O container manda no tamanho máximo do pôster
-      90% da tela no celular
-      até no máximo 400px
-    */
     .container {
-      width: 90%;
-      max-width: 400px;
-      margin: auto;
+      width: 100%;
+      max-width: 420px;
+      margin: 0 auto;
+      padding: 20px;
     }
 
-    /*
-      A imagem cresce porque ocupa 100% do container
-      Ela nunca passa do limite do container
-    */
-    img {
+    .poster {
       width: 100%;
+      max-width: 360px;
       height: auto;
       border-radius: 8px;
+      margin: 20px auto;
+      display: block;
+    }
+
+    h2 {
       margin: 15px 0;
     }
 
-    a {
+    a.botao {
       display: inline-block;
       background: #000814;
       color: white;
-      padding: 12px 18px;
+      padding: 12px 20px;
       text-decoration: none;
       border-radius: 6px;
       font-weight: bold;
+      margin-top: 10px;
     }
 
-    a:hover {
+    a.botao:hover {
       background: #001d3d;
     }
   </style>
@@ -63,7 +62,7 @@
 
   <img src="IMG_20251213_171857_(780_x_1168_pixel).jpg" alt="Pôster do Superman 1941">
 
-  <h2>SUPERMAN 1941</h2>
+  <h1>SUPERMAN 1941</h1>
 
   <a href="SUPERMAN1941segundaPagina.html">SAIBA MAIS</a>
 
