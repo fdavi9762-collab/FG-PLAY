@@ -3,39 +3,76 @@ html, body {
   font-family: Arial, sans-serif;
   margin: 0;
   color: white;
+  text-align: center;
 }
 
+/* Container principal */
 .container {
-  width: 80%;
+  width: 90%;
+  max-width: 400px;
   margin: 20px auto;
   padding: 15px;
   border: 1px solid #ccc;
 }
 
-/* ID corrigido (sem espaço) */
+/* ID sem espaço (correto) */
 #fg-play {
   color: #214cce;
   font-size: 24px;
 }
 
+/* Parágrafos */
 p {
   line-height: 1.6;
 }
 
+/* Produtos */
 .produto-container {
   display: flex;
   width: 100%;
   justify-content: space-around;
 }
 
-/* Media query para telas menores */
+/* Classificação indicativa */
+.classificacao {
+  font-size: 16px;
+  color: #00ff00;
+  margin: 10px 0;
+}
+
+/* Imagens */
+img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin: 15px 0;
+}
+
+/* Links tipo botão */
+a {
+  display: inline-block;
+  background: #000814;
+  color: white;
+  padding: 12px 18px;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+a:hover {
+  background: #001d3d;
+}
+
+/* Header */
+header {
+  padding: 20px;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+/* Media query */
 @media screen and (max-width: 768px) {
   .colaborador img {
     width: 30%;
   }
-}
-.classificacao {
-  font-size: 16px;
-  color: #00FF00;
-  margin: 10px 0;
 }
