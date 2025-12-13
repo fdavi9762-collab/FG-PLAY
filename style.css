@@ -34,3 +34,8 @@ p {
     width: 30%;
   }
 }
+.classificacao {
+  font-size: 16px;
+  color: #00FF00;
+  margin: 10px 0;
+}
